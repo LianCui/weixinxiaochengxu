@@ -1,0 +1,21 @@
+/* pages/about/about.wxss */
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about image{
+  width: 180rpx;
+  height: 180rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+#about {
+  margin-top:150px;
+}
+text{
+  width: 90%;
+  font-size: 12px;
+  color:black;
+}

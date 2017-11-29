@@ -1,0 +1,19 @@
+<!--pages/PIC/pic.wxml-->
+<!--轮播图  -->
+<view>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"height="150" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<!-- 详情-->
+<view class='jia'>
+    <image src='../../images/D.jpg'></image>
+    <image src='../../images/0.jpg'></image>
+    <image src='../../images/9.jpg'></image>
+    <image src='../../images/4.jpg'></image>
+</view>

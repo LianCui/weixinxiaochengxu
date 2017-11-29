@@ -1,0 +1,40 @@
+<!--logs.wxml-->
+<!--轮播图  -->
+<view>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"height="150" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+
+<!--详情  -->
+<view>
+  <view class='four'>
+      <text>服务</text> 
+      <text>分类</text> 
+  </view>
+  <view class='detail'>
+        <navigator url= "../PIC/pic" class='child'>
+          <image src='../../images/0.jpg'></image>
+          <text>儿童写真  ￥500</text>
+        </navigator>
+        <navigator url= "../PIC/pic" class='child'>
+          <image src='../../images/3.jpg'></image>
+          <text>儿童写真  ￥500</text>
+        </navigator>
+        <navigator url= "../PIC/pic" class='child'>
+          <image src='../../images/6.jpg'></image>
+          <text>儿童写真  ￥500</text>
+        </navigator>
+        <navigator url= "../PIC/pic" class='child'>
+          <image src='../../images/4.jpg'></image>
+          <text>儿童写真  ￥500</text>
+        </navigator>
+  </view>
+
+</view>
+

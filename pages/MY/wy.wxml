@@ -1,0 +1,37 @@
+<!--pages/MY/wy.wxml-->
+   <view>
+   <!-- <view id='MY-all'>我的</view> -->
+    <view id='MY'>
+        <view  id='MY-img'>
+          <image src='../../images/2.png'></image>
+        </view>
+        <view id='MY-p'>
+          <p>夹心糖</p>
+        </view>
+    </view>
+
+    <view id='top'>
+      <view id='address'>
+        <navigator url= "../map/mag" class='nav'>
+          <text>门店地址</text>
+          <text>上海市杨浦区大学路248号</text>
+        </navigator>
+      </view>
+      <view id="phone">
+        <text>服务热线</text>
+        <text>13647235908</text>
+      </view>
+    </view>
+
+    <view id='two'>
+       <view id='our'>
+          <navigator url= "../about/about" class='nao'>
+              关于我们
+          </navigator>
+       </view>
+       <view id='inent'>
+         <text>官方网站</text>
+       </view>
+    </view>
+  
+</view>

@@ -1,0 +1,7 @@
+/* pages/PIC/pic.wxss */
+.jia image{
+   width:100%;
+   height:160px;
+   margin:5px;
+   box-shadow: 1px 2px 1px 2px gainsboro;
+}

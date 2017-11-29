@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/MY/wy",
+    "pages/map/mag",
+    "pages/about/about",
+    "pages/PIC/pic"
+  ],
+  "window": {
+    "backgroundTextStyle": "black",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "颜团子",
+    "navigationBarTextStyle": "#ffffff",
+    "enablePullDownRefresh": true
+  },
+  "deBug": true,
+  "tabBar": {
+    "selectedColor": "#23BB60",
+    "list": [
+      {
+        "selectedIconPath": "images/shouye.png",
+        "iconPath": "images/shouye.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/find.png",
+        "iconPath": "images/find.png",
+        "pagePath": "pages/logs/logs",
+        "text": "详情"
+      },
+      {
+        "selectedIconPath": "images/my.png",
+        "iconPath": "images/my.png",
+        "pagePath": "pages/MY/wy",
+        "text": "我的"
+      }
+    ]
+  }
+}
